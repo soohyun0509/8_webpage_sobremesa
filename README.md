@@ -9,7 +9,7 @@
   <h3> 레스토랑 웹페이지 :: SOBREMESA </h3>
   <h5> '컴퓨터', '식사 후에 가족들과 이야기하며 보내는 시간'이라는 뜻의 스페인어 </h5> <br><br>
 
-  <h2> :pushpin: 주제 선정 이유 :pushpin: </h2>
+  <h2> :pushpin: Overview :pushpin: </h2>
   <h4> 첫째. 다양한 레이아웃을 이용한 페이지에 수업 시간에 배운 기능을 다양하게 활용해 볼 수 있을 것 같아서</h4>
   <h4> 둘째. SNS와 블로그로 식당 예약, 메뉴, 리뷰 등을 볼 수 있기는 하지만, <br> 홈페이지를 제작하여 이용자들의 접근성을 높이고
         예약과 메뉴를 한번에 볼 수 있도록 가시성을 높이기 위해서</h4>
@@ -21,8 +21,9 @@
   <h5>  웹 페이지에는 지금까지 배운 내용을 최대한 활용하여 개발하도록 한다. 예약하기 페이지에는 달력을 만들어 예약 가능한 날짜와 이미 예약이 있는 날짜를 한 눈에 확인하고, 예약변경, 예약취소 등의 기능도 가능하도록 한다. 또한 매달 바뀌는 메인과 서브 메뉴를 갤러리에서 사진과 함께 확인할 수 있게 만들어 이용자들의 편리성을 향상시키고자 한다. </h5> <br> <br>
 
 <div align=center>
-  <h2> :blossom: 사용할 Skill :blossom: </h2>
-  <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=JavaScript&logoColor=white"/>  </h4> <br><br>
+  <h2> :loudspeaker: Features :loudspeaker: </h2>
+  <h4> 기능 </h4> <br><br>
+  
   
   <h2> :raised_hands: 역할 분담 :raised_hands: </h2>
   <h4> 박수현 : GIT 통합 및 관리 </h4>
@@ -60,5 +61,9 @@
   <h4> 손비아 :  </h4>
   <h4> 윤상진 :  </h4>
 <br><br>
+
+  <h2> :blossom: 사용할 Skill :blossom: </h2>
+  <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=JavaScript&logoColor=white"/>  </h4> <br><br>
+  
 </div>
 
