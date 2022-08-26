@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 /*
-사용한 속성
-menu_content 부분(내용전체박스-부모태그) flex 사용
-outline / outline-offset 사용해서 이중선 만들어줌
+	사용한 속성 크게
+	- menu_content 부분(내용전체박스-부모태그) flex 사용
+	그 중 justify-content: space-around 사용해서 가운데 일정하게 공간 만들어줌
+	
+	- outline / outline-offset 사용해서 이중선 만들어줌
 
 */
 
@@ -20,11 +22,20 @@ outline / outline-offset 사용해서 이중선 만들어줌
 /*제목 부분*/
 .menu_title{
 	font-family: 'Noto Serif HK', serif; 
-	font-size: 100px; font-weight: bold;
 	background-color: #D6E0F0;
 	border-bottom: 3px solid #8D93AB; 
-	padding: 30px 0 40px 0;
+	padding: 15px 0 20px 0;
 }
+
+.menu_title h1{
+	font-size: 90px; font-weight: bold; margin-bottom: 15px;
+}
+.menu_title h3{
+	width: 200px; margin: 0 auto;
+	font-size: 30px; border-top: 3px solid #8D93AB;
+	padding-top: 15px;
+}
+
 	
 /*내용 전체 부분*/
 .menu_content{
@@ -51,7 +62,8 @@ outline / outline-offset 사용해서 이중선 만들어줌
 /*lunch dinner beverage 제목*/
 .sub_title{ 
 	font-size: 40px; font-family: 'Noto Serif HK', serif;
-	padding: 15px 0;
+	padding: 15px 0; border-bottom: 4px solid #D6E0F0;
+	width: 200px; margin: 0 auto;
 }
 
 /*메뉴 이미지*/
