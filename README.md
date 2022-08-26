@@ -21,7 +21,7 @@
   <h5>  웹 페이지에는 지금까지 배운 내용을 최대한 활용하여 개발하도록 한다. 예약하기 페이지에는 달력을 만들어 예약 가능한 날짜와 이미 예약이 있는 날짜를 한 눈에 확인하고, 예약변경, 예약취소 등의 기능도 가능하도록 한다. 또한 매달 바뀌는 메인과 서브 메뉴를 갤러리에서 사진과 함께 확인할 수 있게 만들어 이용자들의 편리성을 향상시키고자 한다. </h5> <br> <br>
 
 <div align=center>
-  <h2> :loudspeaker: Features :loudspeaker: </h2>
+  <h2> :heavy_check_mark: Features :heavy_check_mark: </h2>
   <h4> 기능 </h4> <br><br>
   
   
