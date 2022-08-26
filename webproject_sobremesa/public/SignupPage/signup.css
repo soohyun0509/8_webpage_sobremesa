@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{ border: 1px solid red; }
+
+.main_signup{ margin: 0 auto; }
+header{ height: 100px; }
+.wrap{ width: 100%; text-align: center;  }
+.signup_wrap{ 
+	width: 80%; height:750px; margin: 0 auto; 
+	padding-top:50px; padding-bottom: 50px;
+}
+.signup_box{ width: 80%; height:99%; margin: 0 auto; display: flex; }
+
+/* 이미지 */
+.signup_box .signup_img{ 
+	background-image: url("../image/restaurant.jpg"); 
+	width: 40%; height: 100%;
+	background-size: cover;	
+    background-repeat: no-repeat;
+    filter: brightness(50%);		/* 배경 어둡게 */
+}
+
+
+/* 입력란 */
+
+.signup_input_box{
+	width: 600px;
+	border: 1px solid blue;
+}
+
+
+
+footer{ height: 100px; }
