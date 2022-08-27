@@ -28,12 +28,12 @@
 }
 
 .menu_title h1{
-	font-size: 90px; font-weight: bold; margin-bottom: 15px;
+	font-size: 80px; margin-bottom: 15px;
 }
 .menu_title h3{
 	width: 200px; margin: 0 auto;
-	font-size: 30px; border-top: 3px solid #8D93AB;
-	padding-top: 15px;
+	font-size: 25px; border-top: 3px solid #8D93AB;
+	padding-top: 10px;
 }
 
 	

@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+/*
+	사용 css속성 -> img 들어간 td에 position 설정해서 하위태그인 div 위치조정
+	.black js에서 마우스이벤트설정헤서 display: none과 block 설정함
+*/
+
+
+/*
+	아이콘폰트 - angle-double-right	f101
+				check	f00c
+					edit	f044
+search-plus	f00e
+
+
+/*
+#F1F3F8
+#D6E0F0
+#8D93AB
+#393B44
+
+*/
+
 
 
 @font-face {
@@ -8,3 +29,104 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+
+
+/*----갤러리 전체 박스-----------*/
+.gallery_box{width: 1200px; margin: 0 auto; }
+
+/*----갤러리 타이틀-----------*/
+.gallery_main_title{
+	height: 100px;
+	background-color:  #393B44;
+	color: white; font-family: 'GangwonEdu_OTFBoldA';
+	font-size: 70px; padding-top: 20px;
+}
+
+.gallery_sub_title{
+	font-family: 'GangwonEdu_OTFBoldA';
+	font-size: 20px; padding: 10px;
+}
+
+
+/*-------갤러리 메인컨텐츠-----------------*/
+.gallery_content{
+	background-color: #F1F3F8;
+	padding: 10px 0 20px 10px;
+}
+
+img{height:200px; width: 230px;}
+
+
+	/*테이블 박스 크기 조절*/
+.gallery_imgs{
+	text-align: center;
+	margin: 25px 25px 20px 25px;
+}
+
+.gallery_imgs td {	padding: 0 10px  20px 30px; }
+
+
+.gallery_imgs img:hover{ opacity: 0.2; }
+
+.g_imgs_col1 td, .g_imgs_col2 td,
+ .g_imgs_col3 td, .g_imgs_col4 td, 
+ .g_imgs_col5 td{
+	position: relative;
+}
+
+
+.black{
+	display: none;
+	position: absolute;
+	top: 50px; left: 65px;
+	font-family: 'GangwonEdu_OTFBoldA';
+	font-size: 25px;
+}
+
+.content_icon{
+	position: absolute;
+	top:60px;
+	right: 10px;
+	font-size: 35px;
+}
+
+/*------페이지네이션----------*/
+.pagination{
+	clear: both; font-size: 35px;
+	font-family: 'GangwonEdu_OTFBoldA';
+	text-align: center;
+}
+
+.pagination li{
+	display: inline-block;
+	color: #8D93AB;
+	padding-left: 10px;
+}
+.pagination li a:hover{
+	font-size: 50px;
+	color: #393B44;
+}
+
+
+/*------아이콘--------*/
+.pagination_icon::after{
+	font-family: "Font Awesome 5 Pro";
+	content: '\f101';
+	font-weight: 900;
+	
+}
+
+
+.content_icon::before{
+	font-family: "Font Awesome 5 Pro";
+	content: '\f00e';
+	font-weight: 900;
+	
+}
+
+
+
+
+
