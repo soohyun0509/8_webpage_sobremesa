@@ -3,9 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>회원가입</title>
+		
 		<!-- css 기본 초기화 -->
 		<link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
-		
+		<!-- 아이콘 폰트 -->
+		<script src="https://kit.fontawesome.com/3367894b6f.js" crossorigin="anonymous"></script>
 		
 		<link href="signup.css" rel="stylesheet">
 	</head>
@@ -34,25 +36,75 @@
 								<div>
 									<div class="signup_input">
 										<span>아이디</span>
-										<span class="signup_input">
-											<input id="signup_id" type="text">
+										<span>
+											<input class="signup_id" type="text">
 										</span>
 									</div>
 									<div class="signup_input">
 										<span>비밀번호</span>
-										<span class="signup_input">
-											<input id="signup_pw" type="password">
+										<span>
+											<input class="signup_pw" type="password">
 											<span class="signup_lock"></span>
 										</span>
 									</div>
 									<div class="signup_input">
 										<span>비밀번호 확인</span>
-										<span class="signup_input">
-											<input id="signup_pw" type="password">
+										<span>
+											<input class="signup_pw" type="password">
 											<span class="signup_lock"></span>
 										</span>
 									</div>
+									<div class="signup_input_email">
+										<span>이메일</span>
+										<span>
+											<input class="signup_email" type="text">
+										</span>@
+										<span>
+											<select>
+												<option>선택 ▼</option>
+												<option>gmail.com</option>
+												<option>naver.com</option>
+												<option>nate.com</option>
+											</select>
+										</span>
+									</div>
+									<div class="signup_input">
+										<span>이름</span>
+										<span>
+											<input class="signup_name" type="text">
+										</span>
+									</div>
+									<div class="signup_input_birth">
+										<span>생년월일</span>
+										<span>
+											<input class="signup_year" type="text" placeholder="년(4자)">
+										</span>년
+										<span>
+											<select class="signup_month">
+												<option>월</option>
+												<option>1</option> <option>2</option> <option>3</option> <option>4</option>
+												<option>5</option> <option>6</option> <option>7</option> <option>8</option>
+												<option>9</option> <option>10</option> <option>11</option> <option>12</option>
+											</select>
+										</span>월
+										<span>
+											<input class="signup_day" type="text" placeholder="일(2자)">
+										</span>일
+									</div>
+									
 								</div>
+								<div>
+									<button class="btn">회원가입</button>
+								</div>
+								<span>
+									<h3>Create account with</h3>
+									<ul class="signup_sns">
+										<!-- fa-10x, fa-3x: 사이즈 조절 -->
+										<li><a href="#"> <i class="fa-brands fa-facebook"></i> </a></li>
+										<li><a href="#"> <i class="fa-brands fa-google-plus"></i> </a></li>
+										<li><a href="#"> <i class="fa-brands fa-ello"></i></i> </a></li>
+									</ul>
+								</<span>
 							</span>
 							
 						</div>

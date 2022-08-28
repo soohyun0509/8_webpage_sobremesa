@@ -26,6 +26,7 @@ header{ height: 100px; }
 .signup_input_box{
 	width: 600px;
 	border: 1px solid blue;
+	text-align: left;
 }
 
 
