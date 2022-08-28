@@ -24,81 +24,93 @@
 					<div class="signup_wrap">
 						<div class="signup_box">
 							<!-- 이미지 -->
-							<span class="signup_img">
-	<!-- 							<img class="logo_img" src="../image/logo.jpg">
-	 -->					</span>
+							<span class="signup_img"></span>
+							<img class="logo_img" src="../image/logo.jpg">
 							
 							<!-- 입력란 -->
 							<span class="signup_input_box">
-								<div>
-									<h2>Welcome to SOBREMESA</h2>
+								<div class="input_box_title">
+									<h2 class="heading">Welcome to <strong>SOBREMESA</strong></h2>
 								</div>
-								<div>
-									<div class="signup_input">
-										<span>아이디</span>
-										<span>
-											<input class="signup_id" type="text">
-										</span>
-									</div>
-									<div class="signup_input">
-										<span>비밀번호</span>
-										<span>
-											<input class="signup_pw" type="password">
-											<span class="signup_lock"></span>
-										</span>
-									</div>
-									<div class="signup_input">
-										<span>비밀번호 확인</span>
-										<span>
-											<input class="signup_pw" type="password">
-											<span class="signup_lock"></span>
-										</span>
-									</div>
-									<div class="signup_input_email">
-										<span>이메일</span>
-										<span>
-											<input class="signup_email" type="text">
-										</span>@
-										<span>
-											<select>
-												<option>선택 ▼</option>
-												<option>gmail.com</option>
-												<option>naver.com</option>
-												<option>nate.com</option>
-											</select>
-										</span>
-									</div>
-									<div class="signup_input">
-										<span>이름</span>
-										<span>
-											<input class="signup_name" type="text">
-										</span>
-									</div>
-									<div class="signup_input_birth">
-										<span>생년월일</span>
-										<span>
-											<input class="signup_year" type="text" placeholder="년(4자)">
-										</span>년
-										<span>
-											<select class="signup_month">
-												<option>월</option>
-												<option>1</option> <option>2</option> <option>3</option> <option>4</option>
-												<option>5</option> <option>6</option> <option>7</option> <option>8</option>
-												<option>9</option> <option>10</option> <option>11</option> <option>12</option>
-											</select>
-										</span>월
-										<span>
-											<input class="signup_day" type="text" placeholder="일(2자)">
-										</span>일
-									</div>
-									
-								</div>
-								<div>
+								<table>
+									<tr class="signup_input">
+										<td class="title">아이디</td>
+										<td class="input_box">
+											<span class="input_field">
+												<input class="signup_id" type="text">
+											</span>
+											4~12자로 입력
+										</td>
+									</tr>
+									<tr class="signup_input">
+										<td class="title">비밀번호</td>
+										<td>
+											<span class="input_field">
+												<input class="signup_pw" type="password">
+											</span>
+											4~12자로 입력
+										</td>
+									</tr>
+									<tr class="signup_input">
+										<td class="title">비밀번호 확인</td>
+										<td>
+											<span>
+												<input class="signup_pw" type="password">
+											</span>
+										</td>
+									</tr>
+									<tr class="signup_input">
+										<td class="title">이름</td>
+										<td>
+											<span>
+												<input class="signup_name" type="text">
+											</span>
+										</td>
+									</tr>
+									<tr class="signup_input">
+										<td class="title">이메일</td>
+										<td>
+											<span>
+												<input class="signup_email" type="text">@
+												<select>
+													<option>이메일 선택 ▼</option>
+													<option>gmail.com</option>
+													<option>naver.com</option>
+													<option>nate.com</option>
+												</select>
+											</span>
+										</td>
+									<tr class="signup_input">
+										<td class="title">생년월일</td>
+										<td class="input_birth">
+											<span class="birth_item">
+												<input class="signup_year" type="text" placeholder="년(4자)">
+												<span>년</span>
+											</span>
+											<span class="birth_item">
+												<select class="signup_month">
+													<option>월 ▼</option>
+													<option>1</option> <option>2</option> <option>3</option> <option>4</option>
+													<option>5</option> <option>6</option> <option>7</option> <option>8</option>
+													<option>9</option> <option>10</option> <option>11</option> <option>12</option>
+												</select>
+												<span>월</span>
+											</span>
+											<span class="birth_item">
+												<input class="signup_day" type="text" placeholder="일(2자)">
+												<span>일</span>
+											</span>
+										</td>
+									</tr>
+								</table>
+								
+								<div class="btn_box">
 									<button class="btn">회원가입</button>
 								</div>
-								<span>
+								
+								<span class="signup_sns">
 									<h3>Create account with</h3>
-									<ul class="signup_sns">
+									<ul class="sns_items">
 										<!-- fa-10x, fa-3x: 사이즈 조절 -->
 										<li><a href="#"> <i class="fa-brands fa-facebook"></i> </a></li>
 										<li><a href="#"> <i class="fa-brands fa-google-plus"></i> </a></li>
