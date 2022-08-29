@@ -1,17 +1,5 @@
 @charset "UTF-8";
 
-/*
-	사용 css속성 -> img 들어간 td에 position 설정해서 하위태그인 div 위치조정
-	.black js에서 마우스이벤트설정헤서 display: none과 block 설정함
-*/
-
-
-/*
-	아이콘폰트 - angle-double-right	f101
-				check	f00c
-					edit	f044
-search-plus	f00e
-
 
 /*
 #F1F3F8
@@ -33,6 +21,8 @@ header{height: 100px;}
 footer{height: 100px;}
 
 /*----갤러리 전체 박스-----------*/
+
+
 .gallery_box{width: 1200px; margin: 0 auto; }
 
 /*----갤러리 타이틀-----------*/
