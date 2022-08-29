@@ -87,7 +87,7 @@ section{ margin: 0 auto; height: 580px; }
 	margin: 0 0.15em;
 }
 .input_field{ height: 80px; }
-.signin_id, .signin_pw{ width: 200px; height: 50px; }
+#signin_id, #signin_pw{ width: 200px; height: 50px; }
 
 .option_box{ display: flex; justify-content: space-between; margin-bottom: 30px; }
 .option1{ display: flex; }

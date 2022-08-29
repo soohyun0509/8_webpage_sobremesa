@@ -40,14 +40,14 @@
 								<div class="signin_input">
 									<span class="input_icon_id"></span>
 									<span class="input_field">
-										<input class="signin_id" type="text" placeholder="ID">
+										<input id="signin_id" type="text" placeholder="ID">
 									</span>
 								</div>
 								<!-- pw -->
 								<div class="signin_input">
 									<span  class="input_icon_pw"></span>
 									<span class="input_field">
-										<input class="signin_pw" type="password" placeholder="Password">
+										<input id="signin_pw" type="password" placeholder="Password">
 									</span>
 								</div>
 							</div>
@@ -67,7 +67,7 @@
 							
 							<!-- login btn -->
 							<div class="btn_box">
-								<button class="btn">LOGIN</button>
+								<button onclick="checkUser()" class="btn">LOGIN</button>
 							</div>
 						</div>
 					</div>
@@ -79,5 +79,7 @@
 				footer
 			</footer>
 		</div>
+		
+		<script type="text/javascript" src="signin.js"></script>
 	</body>
 </html>
