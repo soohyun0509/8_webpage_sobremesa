@@ -31,7 +31,8 @@ search-plus	f00e
 }
 
 
-
+header{height: 100px;}
+footer{height: 100px;}
 
 /*----갤러리 전체 박스-----------*/
 .gallery_box{width: 1200px; margin: 0 auto; }
@@ -39,7 +40,7 @@ search-plus	f00e
 /*----갤러리 타이틀-----------*/
 .gallery_main_title{
 	height: 100px;
-	background-color:  #393B44;
+	background-color:  #D6E0F0;
 	color: white; font-family: 'GangwonEdu_OTFBoldA';
 	font-size: 70px; padding-top: 20px;
 }
@@ -52,7 +53,7 @@ search-plus	f00e
 
 /*-------갤러리 메인컨텐츠-----------------*/
 .gallery_content{
-	background-color: #F1F3F8;
+	/* background-color: #F1F3F8; */
 	padding: 10px 0 20px 10px;
 }
 

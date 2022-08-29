@@ -50,6 +50,7 @@
 .menu_content_right{
 	width: 250px;
 	margin: 50px 0;
+	background-color: white;
 	border: 3px solid #D6E0F0; 
 	outline: 3px solid #8D93AB;
 	outline-offset: 15px;
