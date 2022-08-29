@@ -22,10 +22,43 @@
 
 <div align=center>
   <h2> :heavy_check_mark: Features :heavy_check_mark: </h2>
-  <h4> 기능 </h4> <br><br>
+  <h4> 각 페이지 별 핵심 기능 </h4> <br><br>
+  
+  페이지명 | 파일명 | 핵심 기능 | 설명
+  --- |---|---|---
+  메인 | index.html | 추가필요 | 추가필요
+  --- |---|---|---
+  예약| 팀프로젝트1_달력.html | new Date() | javascript에서 시간과 날짜를 표현하는 객체를 사용하여 <br>배열과 객체 불러오기 이용
+  &nbsp;|&nbsp; |  new Date().getFullYear() | 4자리 년도
+  &nbsp;| &nbsp;| new Date().getMonth() | 월 [0~11] (※ 0 = 1월)
+  &nbsp;| &nbsp;| new Date().getDate() | 일
+  &nbsp;| &nbsp;| new Date().getDay() | 요일[0~6] (※ 0 = 일요일)
+  메뉴| menupage.html|  flex | menu_content 하위요소 가로배치
+  &nbsp;|&nbsp; |  justify-content | 하위요소 정렬 (가운데 일정하게 공간 만들어줌)
+  팀원| 팀원소개하기.html | a | 로그인 / 회원가입 페이지 이동 버튼 생성, 메인, 예약, 메뉴, 팀원, 갤러리, 문의사항 각 이동 페이지 메뉴버튼 생성
+  &nbsp;|&nbsp; | border-radius | Exceutive Chef&Owner , Chef de Cuisine , Pastry Chef, General Manager , Sommelier 각 이미지 둥글게 표현
+  &nbsp;| &nbsp;| shape-outside:circle() | 원형 이미지 형태에 맞춰 텍스트를 감싸며 배치  
+  갤러리| gallery.html | 아이콘 폰트 | 페이지네이션에 활용
+  &nbsp;| &nbsp;| position | 이미지들어간 td에 position 설정해서 하위태그인 div에 absolute로 위치 조정
+  &nbsp;| &nbsp;| 마우스 이벤트 | js에서 테이블에 마우스이벤트 설정해 img들어간 공간에 mouseover , mouseout 했을때 각각 div.style.display: block과 div.style.display: none 실행되도록 설정
+  문의사항| customer_re.html | &nbsp; | 문의사항 표에 있는 input에 입력한 데이터를 아래 표시되도록  기능 부여
+  &nbsp;|&nbsp; | &nbsp; | 출력된 데이터 클릭하면 옆에 문의사항의 제목과 내용만 출력되도록 설정
+  로그인| signin.html | flex | 하위요소 가로배치
+  &nbsp;|&nbsp; |  justify-content | 하위요소 정렬
+  &nbsp;| &nbsp;| 웹 폰트 | 영문에 구글폰트 사용
+  &nbsp;| &nbsp;| 가상요소 | 로고 배치
+  &nbsp;| &nbsp;| 이중 테두리 | 이중 테두리로 박스 꾸미기
+  &nbsp;| &nbsp;| box-shadow | 떠있는 느낌을 주기 위한 그림자 효과
+  &nbsp;| &nbsp;| document.getElementById | 입력된 아이디와 비밀번호를 체크
+  회원가입| signup.html | flex | 하위요소 가로배치
+  &nbsp;|&nbsp; |  justify-content | 하위요소 정렬
+  &nbsp;| &nbsp;| 웹 폰트 | 영문에 구글폰트 사용
+  &nbsp;| &nbsp;| filter | 배경 이미지 어둡게 설정
+  &nbsp;| &nbsp;| 아이콘 폰트 | 페이스북, 구글 등
+  &nbsp;| &nbsp;| box-shadow | 떠있는 느낌을 주기 위한 그림자 효과
   
   
-  <h2> :raised_hands: 역할 분담 :raised_hands: </h2>
+  <br><br><h2> :raised_hands: 역할 분담 :raised_hands: </h2>
   <h4> 박수현 : GIT 통합 및 관리 </h4>
   메뉴 / 갤러리 / 게시판
   <h4> 성지혜 : 발표 </h4>
@@ -37,12 +70,14 @@
   
   <h2> :calendar: 일정 계획 :calendar: </h2>
   <h3> 08/24 </h3>
-   공통 : 주제 선정 / 페이지 분류 / 페이지 분담 
+   공통 : 주제 선정 / 페이지 분류 / 페이지 분담 <br> <br> 
   <h3> 08/25 </h3>
-   공통 : GIT 생성 및 Branch 분리 / 역할 분담 / 프로젝트명 선정 및 로고 제작 / 프로토타입 제작
+   공통 : GIT 생성 및 Branch 분리 / 역할 분담 / 프로젝트명 선정 및 로고 제작 / 프로토타입 제작<br> <br> 
   <h3> 08/26 </h3>
   공통 : GIT Branch 재분리
-  <h4> 박수현 : </h4>메뉴페이지 본문 부분 완성 (헤더, 푸터 합치기 전) <br> GIT Merge
+  <h4> 박수현 : 갤러리페이지 구성중 </h4>
+  1. 메뉴페이지 본문 부분 완성 (헤더, 푸터 합치기 전) <br> 
+  2. GIT Merge<br> 
   <h4> 성지혜 : 메인페이지 구성중 </h4>
   1. 메인, 서브페이지에 들어갈 이미지 찾기<br>
   2. 헤더, 메인, 배너, 서브, 푸터 코드 작성 및 실행<br>
@@ -54,21 +89,25 @@
   4. 일정 관리 및 readme 작성 <br>
   <h4> 윤상진 : 예약하기페이지 구성중 </h4>
   1. 년,월에 따른 일수 변화 완성<br>
-  2. 월 이동에 따른 일수변화 onclick 넣기<br>
+  2. 월 이동에 따른 일수변화 onclick 넣기<br><br> 
   <h3> 08/29 </h3>
   <h4> 박수현 : 문의사항 스크립트 기능 넣는중 </h4>
   1. 갤러리 마우스이벤트 생성<br>
   2. 갤러리 사진수집&페이지 완성<br>
   3. 문의사항 HTML&CSS 완성<br>
   4. GIT Merge<br>
-  <h4> 성지혜 :  </h4>
+  <h4> 성지혜 : 메인페이지, 팀원 소개하기 페이지 수정중 </h4>
+  1. 팀원소개하기 레아이웃 변경<br>
+  2. 메인페이지에서 팀원소개하기 페이지도 이동 변환 추가<br>
+  3. a태그 hover 추가<br>
   <h4> 손비아 : 회원가입페이지,로그인페이지 개발 완료 </h4>
   1. 회원가입페이지에서 회원가입버튼 누를 시 로그인 페이지로 이동하도록 JS추가<br>
   2. 로그인 페이지에서 바른 아이디와 비밀번호를 입력할 경우에만 메인 페이지로 이동하도록 JS추가<br>
+  3. 일정 관리 및 readme 작성 <br>
   <h4> 윤상진 : 예약페이지 css 작업 중 </h4>
   1. 년,월 이동에 따른 일수 변화<br>
   2. 예약가능 날짜 표시 / 변경 작업<br>
-  3. 버튼 누를시 로그인 페이지 변환<br>
+  3. 버튼 누를시 로그인 페이지 변환<br><br> 
   <h3> 08/30 </h3>
   <h4> 박수현 :  </h4>
   <h4> 성지혜 :  </h4>
