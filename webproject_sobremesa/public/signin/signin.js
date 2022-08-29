@@ -11,11 +11,11 @@
 	
 	if(emp_name=='admin' && emp_pay=='1234'){
 		alert("정상적으로 로그인되었습니다.")
-		window.location.href="../main/index.html"
+		window.location.href="../main/index.html"		//메인페이지로 이동
 	}else{
 		alert("아이디 또는 비밀번호가 잘못되었습니다.")
-		document.getElementById('signin_id').value=''
-		document.getElementById('signin_pw').value=''
+		emp_name=''
+		emp_pay=''
 	}
 }
  
