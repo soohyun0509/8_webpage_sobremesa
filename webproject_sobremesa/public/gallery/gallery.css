@@ -101,13 +101,13 @@ img{height:200px; width: 230px;}
 .pagination li{
 	display: inline-block;
 	color: #8D93AB;
-	padding-left: 10px;
+	padding-left: 5px;
 }
-.pagination li a:hover{
+
+.current{
 	font-size: 45px;
 	color: #393B44;
 }
-
 
 /*------아이콘--------*/
 .pagination_icon::after{
