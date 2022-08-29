@@ -50,13 +50,12 @@
 .menu_content_right{
 	width: 250px;
 	margin: 50px 0;
-	background-color: white;
-	border: 3px solid #D6E0F0; 
 	outline: 3px solid #8D93AB;
-	outline-offset: 15px;
-	padding: 15px 10px 20px 5px;
+	outline-offset: 20px;
 	
 }
+
+
 .menu_content_left{margin-left: 70px;}
 .menu_content_right{margin-right: 60px;}
 
@@ -75,7 +74,7 @@
 }
 
 /*메뉴 설명 부분*/
-.menu_description{font-size: 20px; font-family: 'GangwonEdu_OTFBoldA';}
+.menu_description{font-size: 20px; font-family: 'GangwonEdu_OTFBoldA'; }
 .menu_description li{padding: 15px;}
 
 
