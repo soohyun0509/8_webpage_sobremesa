@@ -22,14 +22,12 @@ search-plus	f00e
 */
 
 
-
 @font-face {
     font-family: 'GangwonEdu_OTFBoldA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 
 header{height: 100px;}
 footer{height: 100px;}
@@ -39,9 +37,9 @@ footer{height: 100px;}
 
 /*----갤러리 타이틀-----------*/
 .gallery_main_title{
-	height: 100px;
-	background-color:  #D6E0F0;
-	color: white; font-family: 'GangwonEdu_OTFBoldA';
+	height: 150px;
+	background-color:  white;
+	font-family: 'GangwonEdu_OTFBoldA';
 	font-size: 70px; padding-top: 20px;
 }
 
@@ -64,6 +62,7 @@ img{height:200px; width: 230px;}
 .gallery_imgs{
 	text-align: center;
 	margin: 25px 25px 20px 25px;
+	background-color: #F1F3F8;
 }
 
 .gallery_imgs td {	padding: 0 10px  20px 30px; }
