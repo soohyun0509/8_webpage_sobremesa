@@ -24,7 +24,8 @@ textarea{resize: none;}
 /*-----------------------*/
 .customerbox{
 	width: 1200px; margin: 0 auto;
-	 
+	padding: 50px;
+	 border: 1px solid #ccc;
 	
 }
 .cutomer_title{
@@ -85,14 +86,19 @@ textarea{resize: none;}
 	font-size: 20px;  font-family: 'GangwonEdu_OTFBoldA';
 	
 }
-
 .result{
 	float: left; 
+}
+
+
+.result, .result2{
+	
 	width: 500px; margin: 0 auto;
 	border: 1px solid black;
 	text-align: center;
 	font-family: 'GangwonEdu_OTFBoldA';
-	margin-bottom: 50px;
+	margin: 100px 0 50px 0;
+	background-color: #F1F3F8;
 	
 	}
 
@@ -101,17 +107,19 @@ textarea{resize: none;}
 }
 
 .result th{
-	width:20px;
-	 border: 1px solid black;
+	border: 1px solid black;
 	padding: 10px;	
 }
 
+.result2{
+	float: right;
+	text-align: center;
+}
 
-
-
-
-
-
+.result2 th, .result2 tr{
+	padding:10px;
+	border: 1px solid black;
+}
 
 
 
