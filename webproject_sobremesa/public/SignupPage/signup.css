@@ -6,7 +6,7 @@
 	2. 웹 폰트 - 한글(눈누), 영문(구글폰트)
 	3. filter로 배경 이미지 어둡게 설정
 	4. 아이콘 폰트 - 페이스북, 구글 등
-	5. box-shadow
+	5. box-shadow - 떠있는 느낌을 주기 위한 그림자 효과
 */
 
 /* 웹 폰트 - 한글(눈누), 영문(구글폰트) */
@@ -31,8 +31,9 @@ header{ height: 100px; }
 	padding-top:50px;
 }
 .signup_box{ 
-	width: 85%; height:99%; margin: 0 auto; display: flex; 
+	width: 70%; height:99%; margin: 0 auto; display: flex; 
 	background-color: white; box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4);
+	position: relative;
 }
 
 /* 이미지 */
@@ -45,8 +46,8 @@ header{ height: 100px; }
 
 }
 .logo_img{
-	width: 50px; height:40px;
-	margin-top:5px; margin-left:5px;
+	width: 50px; height:40px; position: absolute;
+	right: 5px; top: 5px;
 }
 
 
@@ -62,8 +63,9 @@ header{ height: 100px; }
 .heading strong{ color: #8d93ab; font-family: 'Noto Serif HK', serif; }
 
 table {
+	margin:0 auto;
 	border-collapse: separate;
-	border-spacing: 10px 10px;
+	border-spacing: 0 10px;
 }
 td{ height: 30px; padding-top: 8px; padding-bottom: 8px; padding-left: 12px; border: 1px solid #d6e0f0; }
 .signup_input_items{ padding:15px; }
