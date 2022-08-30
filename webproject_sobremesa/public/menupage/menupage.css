@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-<<<<<<< HEAD
 /*
 	사용한 속성 크게
 	- menu_content 부분(내용전체박스-부모태그) flex 사용
@@ -9,31 +8,15 @@
 */
 
 @font-face {
-=======
-@font-face { /* 눈누 - 폰트 설정 */
->>>>>>> refs/heads/pigji
     font-family: 'GangwonEdu_OTFBoldA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-<<<<<<< HEAD
 }
 *{ margin : 0; padding: 0;}
 a{ text-decoration: none; color: black; }
 a:hover{ color: #393B44; }
 li{ list-style-type: none; }
-=======
-} 
-
-/* css 기본 설정 */
-*{ margin : 0; padding: 0; font-family: 'GangwonEdu_OTFBoldA'; }
-a{ text-decoration: none; color: black; }
-a:hover{ color: #393B44; }
-li{ list-style-type: none; }
-
-/* 페이지 실제 사이즈 */
-.box{ width: 1200px; margin: 0 auto; position: relative; }
->>>>>>> refs/heads/pigji
 
 /* 페이지 실제 사이즈 */
 .box{ width: 1200px; margin: 0 auto; position: relative; }
@@ -54,19 +37,6 @@ li{ list-style-type: none; }
 /*--------------------------메뉴페이지 전체-----------------------------*/
 .menu_main{ 
 	width: 1200px; margin: 0 auto; text-align: center;}
-
-/* ------------------------ 헤더 ----------------------------*/
-#header{ height: 120px; background: #F1F3F8; }
-.logo{ position: absolute; top:20px; left: 20px; }
-.hd_img{ width:90px; height: 80px; } /* 로고이미지 */
-
-.menus{ float: right; text-align: right;}
-.menus li{ display: inline; }
-.top_menu{ margin: 30px 0px;}
-.main_menu{ background: #D6E0F0; padding: 10px; }
-.main_menu li a{
-	font-size: 20px; margin-left: 100px; 
-}
 
 /*제목 부분*/
 .menu_title{
@@ -134,10 +104,7 @@ li{ list-style-type: none; }
 	color: white;   /* 글자색 */
 	height: 250px;
 	padding: 50px;
-<<<<<<< HEAD
 	font-family: 'GangwonEdu_OTFBoldA';
-=======
->>>>>>> refs/heads/pigji
 }
 .ft_item{
 	float: left;
@@ -156,10 +123,3 @@ li{ list-style-type: none; }
 	text-align: center;
 }
 .ft_sns img{ margin-left: 15px;}
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> refs/heads/pigji
-

@@ -26,11 +26,6 @@ let signin_pw = document.getElementById("signin_pw")
 		signin_pw.value=''
 	}
 }
-<<<<<<< HEAD
- 
- 
- 
-=======
 
 //id나 pw 입력창이 focus되면 각 입력창 전체 테두리에 box-shadow 입히기
 signin_id.addEventListener('focus', (event) => {
@@ -47,5 +42,3 @@ signin_id.addEventListener('focusout', (event) => {
 signin_pw.addEventListener('focusout', (event) => {
 	signin_input2.style = "box-shadow : none";
 });
-
->>>>>>> refs/remotes/origin/chocobiv

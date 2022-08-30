@@ -1,6 +1,5 @@
 
 
-
 const date = new Date()
 
 
@@ -117,7 +116,3 @@ document.querySelector('.right_btn').addEventListener('click' , () => {
 })
 
 monthmove()
-
-
-
-

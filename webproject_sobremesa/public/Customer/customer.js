@@ -1,11 +1,11 @@
 
-
 /**
 	1. 문의하기 버튼 누르면 인풋에 입력한 데이터 js에 저장
 	2. 저장한 데이터를 HTML에 출력
   순번 = 인덱스로 표시
  */
  
+
 
 let customers=[]
 
@@ -58,11 +58,6 @@ function 펼치기(i){
 	document.querySelector('.js_content').innerHTML= customers[i].content
 	
 }
-
-
-
-
-
 
 
 
