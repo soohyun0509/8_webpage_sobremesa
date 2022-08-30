@@ -67,7 +67,8 @@ section{ margin: 0 auto; height: 580px; }
 	width: 300px; height: 200px; margin: 0 auto; margin-top: 50px;
 }
 
-.signin_input{ height: 50px; margin-bottom: 15px; border: solid 1.5px #d6e0f0; }
+#signin_input1{ height: 50px; margin-bottom: 15px; border: solid 1.5px #d6e0f0; }
+#signin_input2{ height: 50px; margin-bottom: 15px; border: solid 1.5px #d6e0f0; }
 
 .input_icon_id::before{
 	content: '\f47f';			/* 아이콘 */
