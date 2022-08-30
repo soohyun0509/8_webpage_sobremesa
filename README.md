@@ -20,13 +20,17 @@
   <h5> 요즘 한식, 일식, 중식, 양식 등 여러 외식분야가 발을 넓혀가면서 사람들이 SNS나 전화를 하여 예약하는 경우가 많아지고 있다. 하지만 SNS와 전화로 예약 문의를 했을 경우, SNS 답장이 늦어지거나 이미 예약이 마감되어 있어 부득이하게 계획이 변경되는 경우가 흔하다. 이러한 아쉬운 점을 보안하기 위해 사람들이 쉽게 접근하여 예약을 하고, 메뉴를 확인 할 수 있는 음식점 웹 페이지를 만들기로 결정하였다. </h5>
   <h5>  웹 페이지에는 지금까지 배운 내용을 최대한 활용하여 개발하도록 한다. 예약하기 페이지에는 달력을 만들어 예약 가능한 날짜와 이미 예약이 있는 날짜를 한 눈에 확인하고, 예약변경, 예약취소 등의 기능도 가능하도록 한다. 또한 매달 바뀌는 메인과 서브 메뉴를 갤러리에서 사진과 함께 확인할 수 있게 만들어 이용자들의 편리성을 향상시키고자 한다. </h5> <br> <br>
 
+
 <div align=center>
+  <h2> :dart: Target audience :dart: </h2>
+  <h4> 레스토랑을 줄 서서 기다리기 싫은 사람들 </h4> <br><br>
+
   <h2> :heavy_check_mark: Features :heavy_check_mark: </h2>
   <h4> 각 페이지 별 핵심 기능 </h4> <br><br>
   
   페이지명 | 파일명 | 핵심 기능 | 설명
   --- |---|---|---
-  메인 | 레스토랑소개.html | <a> | 로그인 / 회원가입 버튼 생성, 메인 , 예약, 메뉴, 팀원, 갤러리, 문의사항 버튼 생성
+  메인 | 레스토랑소개.html | a | 로그인 / 회원가입 버튼 생성, 메인 , 예약, 메뉴, 팀원, 갤러리, 문의사항 버튼 생성
   &nbsp;| &nbsp;| 마우스 이벤트 | 헤더 메뉴들 hover시 이벤트 지정
   &nbsp;| &nbsp;| text-decoration: none | 링크 밑줄제거
   &nbsp;| &nbsp;| 웹 폰트 | 한글에 눈누, 영문에 구글폰트 사용
@@ -38,7 +42,7 @@
   &nbsp;| &nbsp;| new Date().getDay() | 요일[0~6] (※ 0 = 일요일)
   메뉴| menupage.html|  flex | menu_content 하위요소 가로배치
   &nbsp;|&nbsp; |  justify-content | 하위요소 정렬 (가운데 일정하게 공간 만들어줌)
-  팀원| 팀원소개하기.html | <a> | 로그인 / 회원가입 페이지 이동 버튼 생성, 메인, 예약, 메뉴, 팀원, 갤러리, 문의사항 각 이동 페이지 메뉴버튼 생성
+  팀원| 팀원소개하기.html | a | 로그인 / 회원가입 페이지 이동 버튼 생성, 메인, 예약, 메뉴, 팀원, 갤러리, 문의사항 각 이동 페이지 메뉴버튼 생성
   &nbsp;|&nbsp; | border-radius | Exceutive Chef&Owner , Chef de Cuisine , Pastry Chef, General Manager , Sommelier 각 이미지 둥글게 표현
   &nbsp;| &nbsp;| shape-outside:circle() | 원형 이미지 형태에 맞춰 텍스트를 감싸며 배치  
   갤러리| gallery.html | 아이콘 폰트 | 페이지네이션에 활용
@@ -53,6 +57,7 @@
   &nbsp;| &nbsp;| 이중 테두리 | 이중 테두리로 박스 꾸미기
   &nbsp;| &nbsp;| box-shadow | 떠있는 느낌을 주기 위한 그림자 효과
   &nbsp;| &nbsp;| document.getElementById | 입력된 아이디와 비밀번호를 체크
+  &nbsp;| &nbsp;| addEventListener | focus 또는 focusout되면 특정 이벤트 발생되도록 지정
   회원가입| signup.html | flex | 하위요소 가로배치
   &nbsp;|&nbsp; |  justify-content | 하위요소 정렬
   &nbsp;| &nbsp;| 웹 폰트 | 영문에 구글폰트 사용
@@ -114,7 +119,9 @@
   <h3> 08/30 </h3>
   <h4> 박수현 :  </h4>
   <h4> 성지혜 :  </h4>
-  <h4> 손비아 :  </h4>
+  <h4> 손비아 : 로그인페이지 JS 추가 </h4>
+  1. 로그인 페이지에서 id나 pw 입력창이 focus되면 각 입력창 전체 테두리에 box-shadow 입히기<br>
+  2. 일정 관리 및 readme 작성 <br>
   <h4> 윤상진 :  </h4>
   <h3> 08/31 </h3>
   <h4> 박수현 :  </h4>
@@ -123,8 +130,13 @@
   <h4> 윤상진 :  </h4>
 <br><br>
 
-  <h2> :blossom: 사용할 Skill :blossom: </h2>
-  <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=JavaScript&logoColor=white"/>  </h4> <br><br>
+  <h2> :blossom: 사용한 Skill :blossom: </h2>
+  <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/git-24292F?style=flat-square&logo=github&logoColor=white"/> </h4> <br><br>
+  
+  <h2> :round_pushpin: 앞으로 추후 방향 :round_pushpin: </h2>
+  1. 백엔드 추가
+  2. js추가해서 유효성 검사
+  3. 반응형,웹 -> 앱 등
   
 </div>
 
