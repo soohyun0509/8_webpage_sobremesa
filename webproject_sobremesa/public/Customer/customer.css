@@ -86,6 +86,19 @@ textarea{resize: none;}
 	font-size: 20px;  font-family: 'GangwonEdu_OTFBoldA';
 	
 }
+
+
+/*------------스크립트 기능-------------*/
+.result_content{
+	clear: both;
+	border: 1px solid black;
+	height: 600px;
+	padding: 0 20px;
+	
+}
+
+
+
 .result{
 	float: left; 
 }
