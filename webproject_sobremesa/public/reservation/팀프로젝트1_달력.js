@@ -67,7 +67,6 @@ for(let x = firstdayIndex ; x > 0 ; x--){
 /* T H I S */
 for(let i = 1 ; i<=lastDay ; i++){
 	const bbb = new Date(date.getFullYear() , date.getMonth(),i).getDay()
-	const bbbb = new Date(date.getFullYear() , date.getMonth(),i)
 	if( (i == date.getDate() && date.getMonth() == new Date().getMonth()) && bbb !== 1){
 		days += `<div class="today">${i}
 		<ul>
