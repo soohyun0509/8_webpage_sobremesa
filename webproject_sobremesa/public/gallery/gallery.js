@@ -1,6 +1,6 @@
 const divs=document.querySelectorAll('.divs')
 const tds=document.querySelectorAll('td')
-const imgs=document.querySelectorAll('img')
+const imgs=document.querySelectorAll('.img')
 
 tds.forEach((td, index)=>{
 	tds[index].addEventListener('mouseover',()=>{
