@@ -7,7 +7,6 @@
  */
  
 
-
 let customers=[]
 
 출력()

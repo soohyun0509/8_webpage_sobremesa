@@ -27,5 +27,5 @@ tds.forEach((td, index)=>{
 		})
 		
 	})
-	
+
 })
