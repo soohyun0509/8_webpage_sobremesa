@@ -10,7 +10,16 @@
 */
 
 /* 웹 폰트 - 영문(구글폰트) */
-*{ font-family: 'Noto Serif HK', serif; }
+*{ 
+font-family: 'GangwonEdu_OTFBoldA';}
+
+/* 웹 폰트 - 한글(눈누) */
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 input{ vertical-align: baseline; }
 
@@ -31,8 +40,13 @@ li{ list-style-type: none; }
 /* 페이지 실제 사이즈 */
 .box{ width: 1200px; margin: 0 auto; position: relative; }
 
+<<<<<<< HEAD
 /* ----------------- 헤더 ----------------- */
 header{ height: 100px; width: 1200px; }
+=======
+/* 페이지 실제 사이즈 */
+.box{ width: 1200px; margin: 0 auto; position: relative; }
+>>>>>>> refs/remotes/origin/chocobiv
 /* ------------------------ 헤더 ----------------------------*/
 #header{ height: 120px; background: #F1F3F8; }
 .logo{ position: absolute; top:20px; left: 20px; }
@@ -48,17 +62,17 @@ header{ height: 100px; width: 1200px; }
 
 
 /* ----------------- 본문 ----------------- */
-section{ margin: 0 auto; height: 580px; }
+section{ margin: 0 auto; height: 600px; }
 
 .wrap{ 
 	width: 100%; height: 100%; text-align: center; 
-	background-color: #8d93ab; padding-top: 100px;
+	background-color: #8d93ab; padding-top: 125px;
 }
 
 
 
 /* 이중선 */
-.container{
+.container{ 
 	width: 450px; height: 340px;
 	border: solid 2px #d6e0f0;		/* 안쪽 테두리 */
 	border-radius: 6px;
@@ -94,7 +108,8 @@ section{ margin: 0 auto; height: 580px; }
 	width: 300px; height: 200px; margin: 0 auto; margin-top: 50px;
 }
 
-.signin_input{ height: 50px; margin-bottom: 15px; border: solid 1.5px #d6e0f0; }
+#signin_input1{ height: 50px; margin-bottom: 15px; border: solid 1.5px #d6e0f0; }
+#signin_input2{ height: 50px; margin-bottom: 15px; border: solid 1.5px #d6e0f0; }
 
 .input_icon_id::before{
 	content: '\f47f';			/* 아이콘 */
@@ -123,8 +138,11 @@ section{ margin: 0 auto; height: 580px; }
 
 .btn{ width: 100%; height:45px; font-weight:bold; background-color: #d6e0f0; color: #f1f3f8; }
 
+<<<<<<< HEAD
 /* ----------------- 푸터 ----------------- */
 footer{ height: 100px; }
+=======
+>>>>>>> refs/remotes/origin/chocobiv
 /* ----------------------- 푸터  ------------------------ */
 #footer{ 
 	clear: both;
