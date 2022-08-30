@@ -7,6 +7,7 @@
 	3. filter로 배경 이미지 어둡게 설정
 	4. 아이콘 폰트 - 페이스북, 구글 등
 	5. box-shadow - 떠있는 느낌을 주기 위한 그림자 효과
+	6. 가상요소 - select의 아래 방향 화살표 아이콘
 */
 
 /* 웹 폰트 - 한글(눈누), 영문(구글폰트) */
@@ -21,8 +22,20 @@
 
 .main_signup{ margin: 0 auto; }
 
-/* ----------------- 헤더 ----------------- */
-header{ height: 100px; }
+/* 페이지 실제 사이즈 */
+.box{ width: 1200px; margin: 0 auto; position: relative; }
+/* ------------------------ 헤더 ----------------------------*/
+#header{ height: 120px; background: #F1F3F8; }
+.logo{ position: absolute; top:20px; left: 20px; }
+.hd_img{ width:90px; height: 80px; } /* 로고이미지 */
+
+.menus{ float: right; text-align: right;}
+.menus li{ display: inline; }
+.top_menu{ margin: 30px 0px;}
+.main_menu{ background: #D6E0F0; padding: 10px; }
+.main_menu li a{
+	font-size: 20px; margin-left: 100px; 
+}
 
 /* ----------------- 본문 ----------------- */
 .wrap{ width: 100%; height: 800px; text-align: center; background-color: #8d93ab; }
@@ -73,6 +86,21 @@ td{ height: 30px; padding-top: 8px; padding-bottom: 8px; padding-left: 12px; bor
 .title{ width: 130px; }
 .input_field{ margin-right: 45px; }
 
+/* 체크박스 상자 */
+.email_field{ display: flex; }
+.select_box{
+	position: relative;
+}
+.select_box::after{
+	display: inline-block;
+	position: absolute;
+	right: -20px;
+	font-family: 'Font Awesome 5 Pro';
+	font-weight: 900;
+	content: '\f078';		/* 아래 방향 화살표 아이콘 */
+	color: #bbb;
+}
+
 .input_birth{ width: 350px; height: 100%; }
 .birth_item{ margin-right: 15px; }
 .signup_year, .signup_month, .signup_day{ width: 50px; vertical-align: top; text-align: right; }
@@ -92,5 +120,29 @@ td{ height: 30px; padding-top: 8px; padding-bottom: 8px; padding-left: 12px; bor
 .sns_items li{ margin-right: 5px; color: #8d93ab; }
 
 
-/* ----------------- 푸터 ----------------- */
-footer{ height: 100px; }
+/* ----------------------- 푸터  ------------------------ */
+#footer{ 
+	clear: both;
+	background-color:#393B44; /* 배경색 */
+	color: white;   /* 글자색 */
+	height: 250px;
+	padding: 50px;
+}
+.ft_item{
+	float: left;
+	width: 380px;
+	margin-top: 50px;
+}
+.ft_item li{ display: inline; }
+.ft_item ul{ margin-bottom: 20px; font-size: 20px; }
+.ft_item a:hover{ color: #F1F3F8; }
+
+
+.ft_sns{
+	display: inline-block;
+	width: 380px;
+	margin-top: 50px;
+	text-align: center;
+}
+.ft_sns img{ margin-left: 15px;}
+

@@ -19,7 +19,7 @@ let signin_pw = document.getElementById("signin_pw")
  function checkUser(){
 	if(signin_id.value=='admin' && signin_pw.value=='1234'){
 		alert("정상적으로 로그인되었습니다.")
-		window.location.href="../main/index.html"		//메인페이지로 이동
+		window.location.href="../main/레스토랑소개.html"		//메인페이지로 이동
 	}else{
 		alert("아이디 또는 비밀번호가 잘못되었습니다.")
 		signin_id.value=''
