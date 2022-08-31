@@ -49,6 +49,14 @@
   팀원| 팀원소개하기.html | a | 로그인 / 회원가입 페이지 이동 버튼 생성, 메인, 예약, 메뉴, 팀원, 갤러리, 문의사항 각 이동 페이지 메뉴버튼 생성
   &nbsp;|&nbsp; | border-radius | Exceutive Chef&Owner , Chef de Cuisine , Pastry Chef, General Manager , Sommelier 각 이미지 둥글게 표현
   &nbsp;| &nbsp;| shape-outside:circle() | 원형 이미지 형태에 맞춰 텍스트를 감싸며 배치  
+  &nbsp;| &nbsp;| background-image | 이미지 삽입 
+  &nbsp;| &nbsp;| background-repeat | 이미지 자동채우기 제거
+  &nbsp;| &nbsp;| background-position | 이미지 배경 위치 설정
+  &nbsp;| &nbsp;| text-decoration : none | a태그 링크 밑줄제거
+  &nbsp;| &nbsp;| text-align | 팀원소개 헤더 가운데 배치
+  &nbsp;| &nbsp;| shape-outside:circle() | 원형 이미지 형태에 맞춰 텍스트를 감싸며 배치 
+  &nbsp;| &nbsp;| font-weight | 팀원 이름 폰트 굵게 설정
+  &nbsp;| &nbsp;| line-height | 팀원 소개글 줄간격 설정
   갤러리| gallery.html | 아이콘 폰트 | 페이지네이션에 활용
   &nbsp;| &nbsp;| position | 이미지들어간 td에 position 설정해서 하위태그인 div에 absolute로 위치 조정
   &nbsp;| &nbsp;| 마우스 이벤트 | js에서 테이블에 마우스이벤트 설정해 img들어간 공간에 mouseover , mouseout 했을때 각각 div.style.display: block과 div.style.display: none 실행되도록 설정
@@ -78,7 +86,7 @@
   &nbsp;| &nbsp;| filter | 배경 이미지 어둡게 설정
   &nbsp;| &nbsp;| 아이콘 폰트 | 페이스북, 구글 등
   &nbsp;| &nbsp;| box-shadow | 떠있는 느낌을 주기 위한 그림자 효과
-  
+  &nbsp;| &nbsp;| 가상요소 | select의 아래 방향 화살표 아이콘 설정
   
   <br><br><h2> :raised_hands: 역할 분담 :raised_hands: </h2>
   <h4> 박수현 : GIT 통합 및 관리 </h4>
