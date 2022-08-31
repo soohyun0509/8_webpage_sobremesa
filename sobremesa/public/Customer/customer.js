@@ -14,15 +14,16 @@ let customers=[]
 
 function 데이터저장(){
 	const customer={
+		
 		type: document.querySelector('.form_type').value,
 		title: document.querySelector('.form_title').value,
-		content: document.querySelector('.form_content').value
-		
+		content: document.querySelector('.form_content').value,
+		phone: document.querySelector('.form_phone').value,
 	}
 	alert('저장완료')
 	
 	customers.push(customer)
-	console.log(customer.type)
+	console.log(customer.phone)
 	
 	
 	document.querySelector('.form_title').value=''
@@ -46,7 +47,6 @@ function 출력(){
 					<th><a href='#' onclick='펼치기(${i})'>${customers[i].title}</a></th>
 				</tr>`
 	}
-
 	
 	document.querySelector('.result').innerHTML= html
 }
@@ -56,6 +56,8 @@ function 출력(){
 function 펼치기(i){
 	document.querySelector('.js_title').innerHTML= customers[i].title
 	document.querySelector('.js_content').innerHTML= customers[i].content
+	document.querySelector('.js_phone').innerHTML= customers[i].phone
+	
 	
 }
 

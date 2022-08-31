@@ -94,8 +94,12 @@ textarea{resize: none;}
 	 padding: 5px 15px 5px 10px;
 }
 
+.select_box select{
+	padding-right: 30px;
+}
+
 .email select{
-	padding-right: 20px;
+	padding-right: 45px;
 	padding-top: 5px;
 }
 
@@ -109,6 +113,32 @@ textarea{resize: none;}
 	font-size: 22px;  font-family: 'GangwonEdu_OTFBoldA';
 	
 }
+
+.select_box, .email{
+	position: relative;
+}
+
+.select_box::after{
+	font-family: 'Font Awesome 5 Pro';
+	content: '\f078';
+	font-weight: 900;
+	display: inline-block; 
+	position: absolute;
+	left: 150px;
+	top: 5px;
+}
+
+.email::after{
+	font-family: 'Font Awesome 5 Pro';
+	content: '\f078';
+	font-weight: 900;
+	display: inline-block; 
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+
+
 
 
 /*------------스크립트 기능-------------*/
@@ -139,6 +169,7 @@ textarea{resize: none;}
 	font-family: 'GangwonEdu_OTFBoldA';
 	margin: 100px 0 50px 0;
 	background-color: white;
+	font-size: 20px;
 	
 }
 

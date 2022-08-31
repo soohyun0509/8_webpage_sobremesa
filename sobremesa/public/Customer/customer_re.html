@@ -48,10 +48,12 @@
 			<div class="rowbox">
 				<div class="col1">문의유형</div>
 				<div class="col2">
-					<select class="form_type">
-						<option>예약관련</option><option>레스토랑 이용관련</option>
-						<option>이용불편사항</option><option>기타</option>
-					</select>
+					<div class="select_box">
+						<select class="form_type">
+							<option>예약관련</option><option>레스토랑 이용관련</option>
+							<option>이용불편사항</option><option>기타</option>
+						</select>
+					</div>
 				</div>
 			</div>
 			<div class="rowbox">
@@ -65,7 +67,8 @@
 			<div class="rowbox">
 				<div class="col1">이메일</div>
 				<div class="col2 email">
-					<input class="form_email" type="text"> @ <select>
+					<input class="form_email" type="text"> @ 
+										<select>
 											<option>직접입력</option><option>naver.com</option><option>nate.com</option>
 										</select> 
 				</div>
@@ -95,6 +98,9 @@
 				</tr>
 				<tr>
 					<th>내용</th><th class="js_content"></th>
+				</tr>
+				<tr>
+					<th>연락처</th><th class="js_phone"></th>
 				</tr>
 			
 			</table>
