@@ -22,7 +22,7 @@ li{ list-style-type: none; }
 
 
 /* ------------------------ 헤더 ----------------------------*/
-#header{ height: 120px; background-color: #F1F3F8; }
+#header{ height: 120px;  }
 .logo{ position: absolute; top:20px; left: 20px; }
 .hd_img{ width:90px; height: 80px; } /* 로고이미지 */
 
