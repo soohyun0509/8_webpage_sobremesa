@@ -42,14 +42,28 @@
   &nbsp;| &nbsp;| new Date().getDay() | 요일[0~6] (※ 0 = 일요일)
   메뉴| menupage.html|  flex | menu_content 하위요소 가로배치
   &nbsp;|&nbsp; |  justify-content | 하위요소 정렬 (가운데 일정하게 공간 만들어줌)
+  &nbsp;|&nbsp; |  flex | 메뉴 리스트 가로배치
+  &nbsp;|&nbsp; |  border | 글자 밑에 border 넣어서 밑줄 표현
+  &nbsp;|&nbsp; |  outline, outline-offset | 메뉴판에 outline 과 outline-offset 사용한 경계선 넣어 넓어 보이게 표현
+  &nbsp;|&nbsp; |  padding | 각 li에 padding 줘서 간격 부여
   팀원| 팀원소개하기.html | a | 로그인 / 회원가입 페이지 이동 버튼 생성, 메인, 예약, 메뉴, 팀원, 갤러리, 문의사항 각 이동 페이지 메뉴버튼 생성
   &nbsp;|&nbsp; | border-radius | Exceutive Chef&Owner , Chef de Cuisine , Pastry Chef, General Manager , Sommelier 각 이미지 둥글게 표현
   &nbsp;| &nbsp;| shape-outside:circle() | 원형 이미지 형태에 맞춰 텍스트를 감싸며 배치  
   갤러리| gallery.html | 아이콘 폰트 | 페이지네이션에 활용
   &nbsp;| &nbsp;| position | 이미지들어간 td에 position 설정해서 하위태그인 div에 absolute로 위치 조정
   &nbsp;| &nbsp;| 마우스 이벤트 | js에서 테이블에 마우스이벤트 설정해 img들어간 공간에 mouseover , mouseout 했을때 각각 div.style.display: block과 div.style.display: none 실행되도록 설정
+  &nbsp;| &nbsp;| box-shadow | 각 이미지에 box-shadow 넣어 보더 넣지않고 경계 느껴지게 표현
+  &nbsp;| &nbsp;| opacity | a 태그에 opacity 넣어 마우스 올리면 흐려지게 표현
+  &nbsp;| &nbsp;| addEventListener | mouseout 이벤트 생성
+  &nbsp;| &nbsp;| addEventListener | mouseover 이벤트 생성
+  &nbsp;| &nbsp;| forEach | 이미지 js로 문서객체로 가져올때 forEach 사용해 인덱스 가져와 이미지의 인덱스와 div의 인덱스가 같을때 각각 .style.display: block과 div.style.display: none 이 실행되도록 설정
   문의사항| customer_re.html | document.getElementById | 문의사항 표에 있는 input에 입력한 데이터를 아래 표시되도록  기능 부여
   &nbsp;|&nbsp; | document.getElementById | 출력된 데이터 클릭하면 옆에 문의사항의 제목과 내용만 출력되도록 설정
+  &nbsp;|&nbsp; | querySelector | html 요소 문서객체로 가져왔다
+  &nbsp;|&nbsp; | &nbsp; | 버튼 누르면 입력된 값 저장 설정
+  &nbsp;|&nbsp; | innerHTML | html에서 입력된 요소 화면 특정부분에 나오도록 설정
+  &nbsp;|&nbsp; | &nbsp; | input 박스 사이즈 재설정
+  &nbsp;|&nbsp; | border | 타이틀 글자 밑에 border로 밑줄 표현
   로그인| signin.html | flex | 하위요소 가로배치
   &nbsp;|&nbsp; |  justify-content | 하위요소 정렬
   &nbsp;| &nbsp;| 웹 폰트 | 한글에 눈누, 영문에 구글폰트 사용
@@ -79,8 +93,10 @@
   <h2> :calendar: 일정 계획 :calendar: </h2>
   <h3> 08/24 </h3>
    공통 : 주제 선정 / 페이지 분류 / 페이지 분담 <br> <br> 
+   
   <h3> 08/25 </h3>
    공통 : GIT 생성 및 Branch 분리 / 역할 분담 / 프로젝트명 선정 및 로고 제작 / 프로토타입 제작<br> <br> 
+   
   <h3> 08/26 </h3>
   공통 : GIT Branch 재분리
   <h4> 박수현 : 갤러리페이지 구성중 </h4>
@@ -98,6 +114,7 @@
   <h4> 윤상진 : 예약하기페이지 구성중 </h4>
   1. 년,월에 따른 일수 변화 완성<br>
   2. 월 이동에 따른 일수변화 onclick 넣기<br><br> 
+  
   <h3> 08/29 </h3>
   <h4> 박수현 : 문의사항 스크립트 기능 넣는중 </h4>
   1. 갤러리 마우스이벤트 생성<br>
@@ -116,8 +133,9 @@
   1. 년,월 이동에 따른 일수 변화<br>
   2. 예약가능 날짜 표시 / 변경 작업<br>
   3. 버튼 누를시 로그인 페이지 변환<br><br> 
+  
   <h3> 08/30 </h3>
-  공통 : header와 footer 병합 및 통일감을 위한 디자인 수정 중 <br>
+  공통 : header와 footer 병합 및 통일감을 위한 디자인 수정 <br>
   <h4> 박수현 </h4>
   1. 각 페이지마다 헤더와 푸터 css 속성 맞게 합침<br>
   2. 헤더,푸터 합친뒤 본래 페이지에 클래스명 따로 안줘서 생긴 스크립트 문제 해결<br>
@@ -131,6 +149,7 @@
   <h4> 윤상진 </h4>
   1. 달력 '월' 이동 시 누락된 '년' 함수 추가 수정<br>
   2. 기존 변수명, 변수 값 수정<br><br>
+  
   <h3> 08/31 </h3>
   <h4> 박수현 :  </h4>
   <h4> 성지혜 :  </h4>
