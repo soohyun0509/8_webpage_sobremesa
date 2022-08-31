@@ -17,6 +17,10 @@
 }
 /* css 기본 설정 */
 
+*{ margin : 0; padding: 0;}
+
+
+li{ list-style-type: none; }
 .box{ width: 1200px; margin: 0 auto; position: relative; }
 /* ------------------------ 헤더 ----------------------------*/
 #header{ height: 120px; background: #F1F3F8; font-family: 'GangwonEdu_OTFBoldA';}
@@ -151,6 +155,7 @@
 	padding: 50px;
 	font-family: 'GangwonEdu_OTFBoldA';
 }
+.ft_item a{color: black;}
 .ft_item{
 	float: left;
 	width: 380px;

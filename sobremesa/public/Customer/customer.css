@@ -14,6 +14,18 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+/* css 기본 설정 */
+*{ margin : 0; padding: 0;}
+a{ text-decoration: none; color: black; }
+a:hover{ color: #393B44; }
+li{ list-style-type: none; }
+
+
+
+
+
 .box{ width: 1200px; margin: 0 auto; position: relative; }
 
 /* ------------------------ 헤더 ----------------------------*/
@@ -28,7 +40,7 @@
 .main_menu li a{
 	font-size: 20px; margin-left: 100px; 
 }
-.box{ width: 1200px; margin: 0 auto; position: relative; }
+
 
 textarea{resize: none;}
 /*-----------------------*/
