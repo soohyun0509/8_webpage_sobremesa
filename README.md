@@ -168,10 +168,11 @@
   <h2> :blossom: 사용한 Skill :blossom: </h2>
   <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/git-24292F?style=flat-square&logo=github&logoColor=white"/> </h4> <br><br>
   
-  <h2> :round_pushpin: 앞으로 추후 방향 :round_pushpin: </h2>
-  1. 백엔드 추가
+  <h2> :round_pushpin: 추후 발전 방향 :round_pushpin: </h2>
+  1. 반응형 웹페이지로 업그레이드
   2. js추가해서 유효성 검사
-  3. 반응형,웹 -> 앱 등
-  
+  3. 회원가입/로그인/문의하기 백엔드 기능 추가
+  4. 실시간 챗봇 예약상담
+
 </div>
 
