@@ -34,7 +34,7 @@ li{ list-style-type: none; }
 /* 페이지 실제 사이즈 */
 .box{ width: 1200px; margin: 0 auto; position: relative; }
 /* ------------------------ 헤더 ----------------------------*/
-#header{ height: 120px; background: #F1F3F8; }
+#header{ height: 120px; background: white; }
 .logo{ position: absolute; top:20px; left: 20px; }
 .hd_img{ width:90px; height: 80px; } /* 로고이미지 */
 
