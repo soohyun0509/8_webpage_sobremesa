@@ -28,9 +28,9 @@
   <h2> :heavy_check_mark: Features :heavy_check_mark: </h2>
   <h4> 각 페이지 별 핵심 기능 </h4> <br><br>
   
-  페이지명 | 파일명 | 핵심 기능 | 설명
+  페이지명 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 파일명 | 핵심 기능 | 설명
   --- |---|---|---
-  메인 | 레스토랑소개.html | a | 로그인 / 회원가입 버튼 생성, 메인 , 예약, 메뉴, 팀원, 갤러리, 문의사항 버튼 생성
+  메인| 레스토랑소개.html | a | 로그인 / 회원가입 버튼 생성, 메인 , 예약, 메뉴, 팀원, 갤러리, 문의사항 버튼 생성
   &nbsp;| &nbsp;| 마우스 이벤트 | 헤더 메뉴들 hover시 이벤트 지정
   &nbsp;| &nbsp;| text-decoration: none | 링크 밑줄제거
   &nbsp;| &nbsp;| 웹 폰트 | 한글에 눈누, 영문에 구글폰트 사용
@@ -58,7 +58,7 @@
   &nbsp;| &nbsp;| addEventListener | mouseover 이벤트 생성
   &nbsp;| &nbsp;| forEach | 이미지 js로 문서객체로 가져올때 forEach 사용해 인덱스 가져와 이미지의 인덱스와 div의 인덱스가 같을때 각각 .style.display: block과 div.style.display: none 이 실행되도록 설정
   문의사항| customer_re.html | document.getElementById | 문의사항 표에 있는 input에 입력한 데이터를 아래 표시되도록  기능 부여
-  &nbsp;|&nbsp; | document.getElementById | 출력된 데이터 클릭하면 옆에 문의사항의 제목과 내용만 출력되도록 설정
+  &nbsp;&nbsp;|&nbsp; | document.getElementById | 출력된 데이터 클릭하면 옆에 문의사항의 제목과 내용만 출력되도록 설정
   &nbsp;|&nbsp; | querySelector | html 요소 문서객체로 가져왔다
   &nbsp;|&nbsp; | &nbsp; | 버튼 누르면 입력된 값 저장 설정
   &nbsp;|&nbsp; | innerHTML | html에서 입력된 요소 화면 특정부분에 나오도록 설정
