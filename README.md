@@ -1,5 +1,8 @@
 # webpage_sobremesa
+
+
 <div align=center>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=d6e0f0&height=200&section=header&text=SOBREMESA&fontSize=90&fontColor=8d93ab" />
   <h3> 안녕하세요! [산대특] 1st. Team Project 3조입니다. </h3> <br>
   
   <h2> :raised_hands: 팀원 소개 :raised_hands: </h2>
@@ -165,14 +168,18 @@
   <h4> 윤상진 :  </h4>
 <br><br>
 
+  <h2> :hammer: Tools :hammer:: </h2>
+  <h4> <img src="https://img.shields.io/badge/eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white"/> </h4> <br><br>
+  
   <h2> :blossom: 사용한 Skill :blossom: </h2>
   <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/git-24292F?style=flat-square&logo=github&logoColor=white"/> </h4> <br><br>
   
   <h2> :round_pushpin: 추후 발전 방향 :round_pushpin: </h2>
-  1. 반응형 웹페이지로 업그레이드
-  2. js추가해서 유효성 검사
-  3. 회원가입/로그인/문의하기 백엔드 기능 추가
-  4. 실시간 챗봇 예약상담
+  1. 반응형 웹페이지로 업그레이드<br>
+  2. js추가해서 유효성 검사<br>
+  3. 회원가입/로그인/문의하기 백엔드 기능 추가<br>
+  4. 실시간 챗봇 예약상담<br>
+  5. 2단 레이아웃을 사용하여 공간을 활용하고 사용자의 편의성을 증가<br>
+  6. 커스터마이징을 사용하여 서브메뉴 추가<br>
 
 </div>
-
