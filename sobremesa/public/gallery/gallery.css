@@ -110,6 +110,10 @@ li{ list-style-type: none; }
 	font-family: 'GangwonEdu_OTFBoldA';
 	text-align: center;
 }
+.pagination a:hover{
+	color: #393B44;
+}
+
 
 .pagination li{
 	display: inline-block;
