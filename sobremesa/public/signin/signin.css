@@ -25,6 +25,12 @@ input{ vertical-align: baseline; }
 
 .main_signin{ margin: 0 auto; }
 
+/* css 기본 설정 */
+*{ margin : 0; padding: 0; font-family: 'GangwonEdu_OTFBoldA'; }
+a{ text-decoration: none; color: black; }
+a:hover{ color: #393B44; }
+li{ list-style-type: none; }
+
 /* 페이지 실제 사이즈 */
 .box{ width: 1200px; margin: 0 auto; position: relative; }
 /* ------------------------ 헤더 ----------------------------*/
