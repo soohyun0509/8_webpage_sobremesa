@@ -17,7 +17,11 @@
 .box{ width: 1200px; margin: 0 auto; position: relative; }
 
 /* ------------------------ 헤더 ----------------------------*/
+<<<<<<< HEAD
 #header{ height: 120px; background: #F1F3F8;  font-family: 'GangwonEdu_OTFBoldA';}
+=======
+#header{ height: 120px; }
+>>>>>>> refs/heads/pigji
 .logo{ position: absolute; top:20px; left: 20px; }
 .hd_img{ width:90px; height: 80px; } /* 로고이미지 */
 
