@@ -28,7 +28,7 @@
   <h2> :heavy_check_mark: Features :heavy_check_mark: </h2>
   <h4> 각 페이지 별 핵심 기능 </h4> <br><br>
   
-  페이지명 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 파일명 | 핵심 기능 | 설명
+  페이지명 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 파일명 | 핵심 기능 | 설명
   --- |---|---|---
   메인| 레스토랑소개.html | a | 로그인 / 회원가입 버튼 생성, 메인 , 예약, 메뉴, 팀원, 갤러리, 문의사항 버튼 생성
   &nbsp;| &nbsp;| 마우스 이벤트 | 헤더 메뉴들 hover시 이벤트 지정
