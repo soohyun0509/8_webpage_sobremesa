@@ -55,27 +55,28 @@ header{
 	margin: 20px 0px;
 }
 .page_desc{
-	font-size: 10px;
 	text-align: center;
 	margin-top: 10px;
 	
 }
 /*------------------------ container --------------------------*/
 .container{
-	max-width: 1200px;
+	max-width: 750px;
 	margin: 0 auto; /* 가운데정렬 */
 	background-color: #ffffff;
 	border-radius: 0 0 10px 10px;
+	display: flex;
 }
 
-
-
 /*----------------------------------------------------------*/
+
 .post_title{
 	
 	background-size: 5px 6px;
 	margin-bottom: 5.5rem;
+	display: inline-block;
 }
+
 .post_title h2{
 	background-color: #393B44; 
 	padding:  0 0.5rem .875rem;
@@ -97,10 +98,29 @@ header{
 				/* 각각의 가로      /  세로 : 50% 통일 */
 				 
 }
+.post_img2{
+	width : 220px;
+	height: 180px; /* 고정 높이 -> 비율이 깨짐 */
+	object-fit : cover;
+	border-radius: 40% 70% 50% 30% / 50%;
+				/* 각각의 가로      /  세로 : 50% 통일 */
+	float: right;
+				 
+}
+.post_img4{
+	width : 220px;
+	height: 180px; /* 고정 높이 -> 비율이 깨짐 */
+	object-fit : cover;
+	border-radius: 40% 70% 50% 30% / 50%;
+				/* 각각의 가로      /  세로 : 50% 통일 */
+	float: right;
+				 
+}
 .post_thumb{
 	position: relative;
 	display: flex;
 }
+
 
 /*------------------------------------------*/
 
@@ -108,6 +128,7 @@ header{
 @media( min-width : 1200px)  { /* 가로사이즈 1200px 이상일때 반응형 */
 	.container{
 		display: flex;
+		justify-content: space-between;
 	}
 	main{
 		width: 68%
